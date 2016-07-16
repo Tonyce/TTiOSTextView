@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE101AB51BFDBDC0002B41F6 /* titleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE101AB31BFDBDC0002B41F6 /* titleViewController.swift */; };
+		BE101AB61BFDBDC0002B41F6 /* titleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE101AB41BFDBDC0002B41F6 /* titleViewController.xib */; };
+		BE101ABE1BFDF10C002B41F6 /* marked.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BE101ABD1BFDF10C002B41F6 /* marked.min.js */; };
 		BEE305AC1BFC50B90080AFCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE305AB1BFC50B90080AFCA /* AppDelegate.swift */; };
 		BEE305AE1BFC50B90080AFCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE305AD1BFC50B90080AFCA /* ViewController.swift */; };
 		BEE305B11BFC50B90080AFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE305AF1BFC50B90080AFCA /* Main.storyboard */; };
 		BEE305B31BFC50B90080AFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE305B21BFC50B90080AFCA /* Assets.xcassets */; };
 		BEE305B61BFC50B90080AFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE305B41BFC50B90080AFCA /* LaunchScreen.storyboard */; };
+		BEE305BE1BFC50D10080AFCA /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE305BD1BFC50D10080AFCA /* Markdown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE101AB31BFDBDC0002B41F6 /* titleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = titleViewController.swift; sourceTree = "<group>"; };
+		BE101AB41BFDBDC0002B41F6 /* titleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = titleViewController.xib; sourceTree = "<group>"; };
+		BE101ABD1BFDF10C002B41F6 /* marked.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = marked.min.js; sourceTree = "<group>"; };
 		BEE305A81BFC50B90080AFCA /* textView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE305AB1BFC50B90080AFCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE305AD1BFC50B90080AFCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		BEE305B21BFC50B90080AFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE305B51BFC50B90080AFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEE305B71BFC50B90080AFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE305BD1BFC50D10080AFCA /* Markdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		BEE305AA1BFC50B90080AFCA /* textView */ = {
 			isa = PBXGroup;
 			children = (
+				BE101ABD1BFDF10C002B41F6 /* marked.min.js */,
+				BEE305BD1BFC50D10080AFCA /* Markdown.swift */,
 				BEE305AB1BFC50B90080AFCA /* AppDelegate.swift */,
 				BEE305AD1BFC50B90080AFCA /* ViewController.swift */,
 				BEE305AF1BFC50B90080AFCA /* Main.storyboard */,
 				BEE305B21BFC50B90080AFCA /* Assets.xcassets */,
 				BEE305B41BFC50B90080AFCA /* LaunchScreen.storyboard */,
 				BEE305B71BFC50B90080AFCA /* Info.plist */,
+				BE101AB31BFDBDC0002B41F6 /* titleViewController.swift */,
+				BE101AB41BFDBDC0002B41F6 /* titleViewController.xib */,
 			);
 			path = textView;
 			sourceTree = "<group>";
@@ -123,7 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE101ABE1BFDF10C002B41F6 /* marked.min.js in Resources */,
 				BEE305B61BFC50B90080AFCA /* LaunchScreen.storyboard in Resources */,
+				BE101AB61BFDBDC0002B41F6 /* titleViewController.xib in Resources */,
 				BEE305B31BFC50B90080AFCA /* Assets.xcassets in Resources */,
 				BEE305B11BFC50B90080AFCA /* Main.storyboard in Resources */,
 			);
@@ -137,6 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE305AE1BFC50B90080AFCA /* ViewController.swift in Sources */,
+				BE101AB51BFDBDC0002B41F6 /* titleViewController.swift in Sources */,
+				BEE305BE1BFC50D10080AFCA /* Markdown.swift in Sources */,
 				BEE305AC1BFC50B90080AFCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +301,7 @@
 				BEE305BC1BFC50B90080AFCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
